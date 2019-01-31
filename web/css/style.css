@@ -1,0 +1,206 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'VT323', monospace;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.main-hero {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 350px;
+  background-color: #252a30;
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.main-hero .btn-floating {
+    background-color: rgb(36, 50, 59);
+}
+#dots-canvas {
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:0;
+}
+
+.hero-container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.hero-container {
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.hero-container__about-me {
+    color: #fff;
+    text-align: left;
+}
+.hero-container__headshot-wrapper {
+    overflow: hidden;
+    max-width: 14rem;
+    max-height: 14rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 993px) {
+    .hero-container__headshot-wrapper {
+        float: right;
+    }
+}
+@media only screen and (min-height: 641px) {
+    .hero-container__headshot-wrapper {
+        max-width: 18rem;
+        max-height: 18rem;
+    }
+}
+.hero-container__blockquote-indent {
+    padding-left: 3rem;
+}
+.hero-container__about-me blockquote {
+    border-left: 5px solid rgb(36, 50, 59);
+}
+.hero-container__title {
+    color: #fff;
+}
+
+.hero-container__content {
+  display: table-cell;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  vertical-align: top;
+}
+@media only screen and (min-width: 993px) {
+    .hero-container__content {
+        vertical-align: middle;
+    }
+}
+@media only screen and (min-height: 1024px) {
+    .hero-container__content {
+        vertical-align: middle;
+    }
+}
+.hero-container__scroll {
+    top: 100vh;
+    margin-top: -50px;
+    display: inline-block;
+    font-size: 1.3rem;
+    left: 50%;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.gsd-section {
+}
+.fp-section-top .fp-tableCell{
+    vertical-align: top;
+}
+.section-black {
+    background-color: #080b0e;
+    color: #fff;
+}
+.section-grey {
+  background-color: #eee;
+}
+
+.card-wrapper {
+  color: inherit;
+}
+
+.icon-block h2 {
+  margin-top: 0;
+}
+
+.section-heading {
+  margin-bottom: 80px;
+}
+
+.gsd-social svg {
+  margin-top: 14px;
+}
+
+.page-footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.page-footer .footer-copyright {
+  background-color: transparent;
+}
+
+.white-popup {
+    position: relative;
+    background: #080b0e;
+    padding: 20px;
+    width:100%;
+    height: 90vh;
+    margin: 20px auto;
+    color: #fff;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+iframe {
+    width:100%;
+    height: calc(100% - 110px);
+}
+.my-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'VT323', monospace;
+    font-size: 120px;
+    cursor: pointer;
+    z-index: 2;
+}
+.my-arrow.left {
+    left: 50px;
+}
+.my-arrow.right {
+    right: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .gsd-work__image-wrapper {
+        background-image: none;
+    }
+}
