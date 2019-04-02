@@ -1,4 +1,5 @@
-personal_website
-================
+## Personal Website Project
 
-A Symfony project created on January 28, 2019, 2:45 am.
+Redone my personal website using Symfony 3.4 Framework
+
+Website deployed to Heroku and can be found here: https://salty-harbor-58191.herokuapp.com/
